@@ -7,14 +7,7 @@ function Number2Roman(number) {
     var output = "";
 
     var decade = 0;
-
-    var decades = [
-        ["I", "V", "X"],
-        ["X", "L", "C"],
-        ["C", "D", "M"],
-        ["M", "c̅", "x̅"]
-    ];
-
+    
     var decades = [
         {
             first: "I",
